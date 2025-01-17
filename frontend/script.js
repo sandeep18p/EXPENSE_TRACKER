@@ -7,7 +7,7 @@ form.addEventListener('submit', async (e) => {
   const email = document.getElementById('email').value.trim();
   const password = document.getElementById('password').value;
 
-  // Clear previous errors
+
   document.getElementById('nameError').textContent = '';
   document.getElementById('emailError').textContent = '';
   document.getElementById('passwordError').textContent = '';
